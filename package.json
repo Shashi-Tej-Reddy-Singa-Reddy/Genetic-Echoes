@@ -1,0 +1,25 @@
+{
+  "name": "genetic-echoes",
+  "version": "1.0.0",
+  "description": "Genetic Echoes — an interactive 3D web experience exploring whether DNA can store and inherit memories (genetic memory, transgenerational epigenetics, Jung's archetypes, reincarnation research & DNA data storage).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js",
+    "start:python": "python3 -m http.server 8000 --bind 0.0.0.0",
+    "open": "open index.html"
+  },
+  "keywords": [
+    "genetic-memory",
+    "epigenetics",
+    "transgenerational-inheritance",
+    "threejs",
+    "webgl",
+    "scrollytelling",
+    "dna",
+    "interactive"
+  ],
+  "author": "",
+  "main": "index.html"
+}
